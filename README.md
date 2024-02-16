@@ -17,4 +17,4 @@ pipeline.set_state(Gst.State.NULL)
 
 ```
 # Convert.py
-Convert.py переводит видео в формат mp4 используя `x264enc` и сохраняет его в текущую папку.
+Convert.py переводит видео в формат mp4 используя `x264enc` и сохраняет его в текущую папку через `filesink location=test.mp4`.
